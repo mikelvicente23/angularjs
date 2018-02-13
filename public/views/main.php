@@ -8,15 +8,15 @@
     <div class="col-lg-8 col-lg-offset-2">
         <br />
         <uib-tabset type="pills">
-            <uib-tab heading="Active Tasks">
-                <h3>Your active tasks</h3>
+            <uib-tab heading="Active Orders">
+                <h3>Your active orders</h3>
 
                 <div class="row text-center" ng-hide="anyActiveTodos">
                     <div class="col-md-12">
                         <img src="../content/images/Status_-_Active.png" height="250">
                     </div>
                     <div class="col-md-12">
-                        <h3>No tasks for today</h3>
+                        <h3>No orders for today</h3>
                         <h4>Have a good day!</h4>
                     </div>
                 </div>
@@ -34,8 +34,8 @@
                     </ul>
                 </div>
             </uib-tab>
-            <uib-tab heading="Completed Tasks">
-                <h3>Your completed tasks</h3>
+            <uib-tab heading="Completed Orders">
+                <h3>Your completed orders</h3>
                 <div class="col-lg-offset-1">
                     <ul ng-repeat="list in completedTodos" style="list-style-type: none;">
                         <li>
@@ -48,8 +48,8 @@
                     </ul>
                 </div>
             </uib-tab>
-            <uib-tab heading="Show all Tasks">
-                <h3>All tasks</h3>
+            <uib-tab heading="Show all Orders">
+                <h3>All orders</h3>
                 <div class="col-lg-offset-1">
                     <ul ng-repeat="list in allTodos" style="list-style-type: none;">
                         <li>
